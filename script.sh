@@ -23,7 +23,9 @@ rm temp_file* 2>/dev/null
 if [ "$1" == "" ]
 then
     echo " "
-    toilet -f future " GITHUB FOLLOWER ASSISTANT"
+    echo " ┏━╸╻╺┳╸╻ ╻╻ ╻┏┓    ┏━╸┏━┓╻  ╻  ┏━┓╻ ╻┏━╸┏━┓   ┏━┓┏━┓┏━┓╻┏━┓╺┳╸┏━┓┏┓╻╺┳╸ "
+    echo " ┃╺┓┃ ┃ ┣━┫┃ ┃┣┻┓   ┣╸ ┃ ┃┃  ┃  ┃ ┃┃╻┃┣╸ ┣┳┛   ┣━┫┗━┓┗━┓┃┗━┓ ┃ ┣━┫┃┗┫ ┃  "
+    echo " ┗━┛╹ ╹ ╹ ╹┗━┛┗━┛   ╹  ┗━┛┗━╸┗━╸┗━┛┗┻┛┗━╸╹┗╸   ╹ ╹┗━┛┗━┛╹┗━┛ ╹ ╹ ╹╹ ╹ ╹  "
     echo " "
     echo -e "${BLUE}     Este utilitario lista os usuarios que${END}${RED} estao sendo seguidos${END}"
     echo -e "${BLUE}     e que${END}${RED} nao seguem de volta${END}${BLUE}.${END}"
